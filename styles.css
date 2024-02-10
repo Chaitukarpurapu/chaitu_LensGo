@@ -1,0 +1,279 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+  }
+  .logo {
+    @keyframes text-animation {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  p {
+    font-size: 24px;
+    color: #ffffff;
+    animation: text-animation 2s ease-in-out;
+  }
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    img {
+      height: 50px;
+    }
+  }
+  p{
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  
+ 
+  .logo p {
+    font-size: 24px;
+    color: #999;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .button-container {
+    animation: blink 1s;
+  }
+  @keyframes blink{
+    0%{
+      opacity: 1;
+    }
+    50%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  
+  .logo {
+    text-align: center;
+    margin-bottom: 150px;
+  }
+  
+  .logo h1 {
+    font-size: 48px;
+    color: #000000;
+  }
+
+
+/* Big heading style */
+big-heading {
+  /* Set font size to 150px */
+   font-size: 150px;}
+h2 {
+  
+  text-align: center;
+  font-size: 150px;
+  font-weight: bold;
+  text-transform: uppercase;  
+  color: #ff6347
+  
+}
+
+h2 {
+  animation: zoomIn 2s alternate-reverse infinite;
+}
+@keyframes zoomIn {
+  0%{
+    transform: scale(0.1);
+  }
+  50%{
+    transform: scale(1.0);
+  }
+  100%{
+    transform: scale(1.0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+.description {
+  text-align: center; 
+  font-size: 20px;
+  line-height: 1.55;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.description::first-letter {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #ff6347;
+}
+  
+  .benefits-button {
+    background-color: transparent;
+    color: #999;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .benefits-button:hover {
+    background-color: #000000;
+    color: #333;
+  }
+
+  
+  .notify {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #212222;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    filter: drop-shadow(rgb(58, 73, 157) 1px 1px 10px);
+  
+  }
+
+.INNERCIRCLE {
+ width: 80%;
+ margin: 0 auto;
+ text-align: center;
+}
+
+h1 {
+ font-size: 2em;
+ color: #fa0000;
+}
+
+h2 {
+ font-size: 2em;
+ color: #3a3a3a;
+}
+
+ul {
+ list-style: none;
+ font-size: 1em;
+ padding: 0;
+ color: #3a3a3a;
+}
+
+ul  {
+ font-size: 1em;
+ line-height: 1;
+}
+
+.entertainment-service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  filter: drop-shadow(rgb(140, 163, 163) 1px 1px 10px);
+}
+
+.item {
+  background-color: #333;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 20px;
+  text-transform: uppercase;
+  width: 150px;
+  text-align: center;
+  animation: animateInRight 1s ease-in-out;
+}
+.entertainment-service {
+  animation: blink 3s reverse;
+}
+@keyframes blink{
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.image{
+  filter: brightness(120%);
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.image{
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  height: auto;
+  filter: brightness(100%);
+}
+
+
+.container1 {
+  width: 80%; /* Adjust width as needed */
+  max-width: 800px; /* Set maximum width if necessary */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding inside the container */
+  box-sizing: border-box; /* Include padding in the total width */
+  background-color: #232323; /* Set background color */
+  border: 1px solid #ffffff; /* Add a border */
+  border-radius: 5px; /* Add rounded corners */
+  margin-bottom: 10px; /* Add margin between containers */
+  animation: fadeIn 2s ease-in-out;
+  
+}
+
+.container1 li {
+  background-color: #ffffff; /* Set background color of list items */
+  padding: 10px; /* Add padding to list items */
+  margin-bottom: 5px; /* Add margin between list items */
+  border: 1px solid #676767; /* Add a border to list items */
+  border-radius: 3px; /* Add rounded corners to list items */
+  animation: fadeIn 2s ease-in-out;
+}
+/* Define the glow animation */
+@keyframes glow {
+0% { 
+text-shadow: 0 0 0px rgba(0, 0, 0, 0.5); /* Blue glow */
+}
+50% {
+text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Increase glow intensity */
+}
+100% {
+text-shadow: 0 0 10px rgba(123, 0, 255, 0.5); /* Back to initial glow */
+}
+}
+
+/* Apply the animation to the cursor */
+body {
+cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Animate the cursor */
+body:hover {
+animation: glow 1s ; /* Apply glow animation */
+}
